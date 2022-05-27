@@ -1,0 +1,13 @@
+.signature-waiting {
+  @apply shadow-signature;
+
+  transition: 0.2s ease-in-out;
+  background-color: rgba(242, 201, 76, 0.9);
+}
+
+.signature-done {
+  @apply shadow-signature;
+
+  transition: 0.2s ease;
+  background-color: rgba(34, 185, 97, 0.9);
+}
